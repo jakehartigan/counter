@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import Weight from './components/counter';
+import Notify from './components/notice';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Weight />
   </React.StrictMode>,
   document.getElementById('root')
 );
